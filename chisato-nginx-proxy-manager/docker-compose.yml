@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: nginx-proxy-manager_server_1
+      APP_PORT: 81
+    container_name: nginx_proxy_manager_app_proxy_1
+  server:
+    image: jc21/nginx-proxy-manager:2.11.2
+    restart: on-failure
+    user: "1000:1000"
+    volumes:
+      - ${APP_DATA_DIR}/data/data:/data
+      - ${APP_DATA_DIR}/data/letsencrypt:/etc/letsencrypt
+    ports:
+      - 2727:80/tcp
+      - 2733:443/tcp
+    container_name: nginx_proxy_manager_server_1

@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: nginx-proxy-manager
+name: Nginx Proxy Manager
+tagline: Expose your services easily and securely
+icon: https://svgur.com/i/mvA.svg
+category: Networking
+version: "2.11.2"
+port: 81
+description: >-
+  A pre-built docker image that enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.
+
+  Default Port Mapping:
+   - 80 --> 2727 (HTTP Port)
+   - 81 --> 81 (Admin Configuration Web Page)
+   - 443 --> 2733 (HTTPS Port)
+
+developer: jc21
+website: https://nginxproxymanager.com/
+submitter: AndreStork
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/NginxProxyManager/nginx-proxy-manager
+support: https://github.com/NginxProxyManager/nginx-proxy-manager/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First App Store update.
+dependencies: []
+path: ""
+defaultUsername: "admin@example.com"
+defaultPassword: "changeme"
