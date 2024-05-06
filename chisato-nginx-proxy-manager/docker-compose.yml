@@ -5,7 +5,7 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: chisato-nginx-proxy-manager_server_1
       APP_PORT: 81
-    container_name: nginx_proxy_manager_app_proxy_1
+      container_name: nginx_proxy_manager_app_proxy_1
   server:
     image: jc21/nginx-proxy-manager:2.11.2
     restart: on-failure
@@ -16,4 +16,4 @@ services:
     ports:
       - 2727:80/tcp
       - 2733:443/tcp
-    container_name: nginx_proxy_manager_server_1
+    container_name: chisato-nginx-proxy-manager_server_1
