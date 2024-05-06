@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: nginx-proxy-manager_server_1
+      APP_HOST: chisato-nginx-proxy-manager_server_1
       APP_PORT: 81
     container_name: nginx_proxy_manager_app_proxy_1
   server:
