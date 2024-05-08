@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: chisato-wg-easy
+name: WireGuard Easy
+tagline: ⚠️TEST IMAGE, DO NOT INSTALL⚠️
+icon: https://svgur.com/i/mvA.svg
+category: Networking
+version: "12"
+port: 51821
+description: >-
+  A pre-built docker image that enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.
+  
+  Default Port Mapping:
+   - 80 --> 2727 (HTTP Port)
+   - 81 --> 81 (Admin Configuration Web Page)
+   - 443 --> 2733 (HTTPS Port)
+
+developer: wg-easy
+website: https://github.com/wg-easy
+submitter: AndreStork
+submission: https://github.com/AndreStork/umbrel-repo/tree/master/chisato-wg-easy
+repo: https://github.com/wg-easy/wg-easy
+support: https://github.com/wg-easy/wg-easy/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First App Store update.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

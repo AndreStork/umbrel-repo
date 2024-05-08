@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: chisato-wg-easy_server_1
+      APP_PORT: 51821
+  server:
+    image: ghcr.io/wg-easy/wg-easy:12
+    restart: on-failure
+    ports:
+      - 51820:51820/udp
