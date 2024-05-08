@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: chisato-wg-easy
 name: WireGuard Easy
-tagline: ⚠️TEST IMAGE, DO NOT INSTALL⚠️
+tagline: ⚠️WIP IMAGE, DO NOT INSTALL⚠️
 icon: https://svgur.com/i/mvA.svg
 category: Networking
 version: "12"
