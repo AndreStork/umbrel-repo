@@ -15,13 +15,13 @@ services:
       DARK_MODE: true
 
       # Set HOSTS: "['qemu:///session']" to connect to a user session
-      HOSTS: "['qemu:///session']"
+      HOSTS: "['qemu:///system']"
 
       # If on an Ubuntu host (or any host with the libvirt AppArmor policy,
       # you will need to use an ssh connection to localhost
       # or use qemu:///system and uncomment the below line
 
-      # privileged: true
+      privileged: true
 
     volumes:
       - ${APP_DATA_DIR}/libvirt-sock:/var/run/libvirt/libvirt-sock
