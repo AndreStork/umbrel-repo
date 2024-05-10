@@ -20,6 +20,6 @@ services:
 
     volumes:
       - ${APP_DATA_DIR}/libvirt/libvirt-sock:/var/run/libvirt/libvirt-sock
-      - "${UMBREL_ROOT}/data/storage/Virtual Machines/images:/var/lib/libvirt/images"
+      - ${UMBREL_ROOT}/data/storage/Virtual Machines/images:/var/lib/libvirt/images
     devices:
-      - "/dev/kvm:/dev/kvm"
+      - /dev/kvm:/dev/kvm
