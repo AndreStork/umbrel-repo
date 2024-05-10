@@ -1,5 +1,10 @@
 version: "3.7"
 services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: chisato-virt-manager_server_1
+      APP_PORT: 8185
   server:
     image: mber5/virt-manager:latest
     restart: always
