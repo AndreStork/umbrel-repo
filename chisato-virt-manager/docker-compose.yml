@@ -19,7 +19,7 @@ services:
       # privileged: true
 
     volumes:
-      - ${APP_DATA_DIR}/libvirt/libvirt-sock:/var/run/libvirt/libvirt-sock
-      - ${UMBREL_ROOT}/data/storage/Virtual Machines/images:/var/lib/libvirt/images
+      - ${APP_DATA_DIR}/libvirt-sock:/var/run/libvirt/libvirt-sock
+      - ${UMBREL_ROOT}/data/storage/VirtManager/images:/var/lib/libvirt/images
     devices:
       - /dev/kvm:/dev/kvm
