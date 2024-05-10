@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: chisato-virt-manager
+name: Virtual Machine Manager
+tagline: ⚠️WIP IMAGE, DO NOT INSTALL⚠️
+icon: https://svgur.com/i/mvA.svg
+category: Tools
+version: "1"
+port: 8185
+description: >-
+  You have found the easiest way to install & manage WireGuard on any Linux host!.
+  
+  Default Port Mapping:
+   - 51821 --> 51821 (HTTP WebUI Port)
+   - 51820 --> 51820 [UDP] (WireGuard Port)
+
+developer: wg-easy
+website: https://github.com/wg-easy
+submitter: AndreStork
+submission: https://github.com/AndreStork/umbrel-repo/tree/master/chisato-wg-easy
+repo: https://github.com/wg-easy/wg-easy
+support: https://github.com/wg-easy/wg-easy/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First App Store update.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
