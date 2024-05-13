@@ -5,10 +5,10 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: chisato-emby_server_1
       APP_PORT: 8096
+      PROXY_AUTH_ADD: 'false'
   server:
     image: linuxserver/emby:4.8.6@sha256:48503bae813c9262986d4b9909172a4fcd3cb7716c03726abd36d4b94f813dbb
     restart: on-failure
-    hostname: "${DEVICE_HOSTNAME}"
     environment:
       - PUID=1000
       - PGID=1000

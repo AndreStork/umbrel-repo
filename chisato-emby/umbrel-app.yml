@@ -2,7 +2,7 @@ manifestVersion: 1
 id: chisato-emby
 name: Emby
 tagline: Take your media anywhere
-icon: https://svgur.com/i/mvA.svg
+icon: https://files-andrestork.netlify.app/software/umbrel/icons/nginx-proxy-manager.png
 category: Media
 version: "4.8.6"
 port: 8096
