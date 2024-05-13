@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: chisato-emby
+name: Emby
+tagline: Take your media anywhere
+icon: https://files-andrestork.netlify.app/software/umbrel/icons/nginx-proxy-manager.png
+category: Media
+version: "4.8.6"
+port: 8096
+description: >-
+  Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices.
+
+developer: Emby Team
+website: https://emby.media/
+submitter: AndreStork
+submission: https://github.com/AndreStork/umbrel-repo/tree/master/chisato-emby
+repo: https://github.com/MediaBrowser/Emby
+support: https://emby.media/community/
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  - Introduction of profile PINs
+  - Added playlist sharing control
+  - Other improvements and minor fixes
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
