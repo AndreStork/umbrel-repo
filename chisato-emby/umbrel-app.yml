@@ -20,9 +20,9 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  - Introduction of profile PINs
-  - Added playlist sharing control
-  - Other improvements and minor fixes
+  - Introduction of profile PINs  
+  - Added playlist sharing control  
+  - Other improvements and minor fixes  
 dependencies: []
 path: ""
 defaultUsername: ""
