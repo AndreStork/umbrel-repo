@@ -10,5 +10,4 @@ To add the Community Store you just need to open the App Store from the Umbrel W
  - Nginx Proxy Manager (2.11.2)
 
 ## Work In Progress
- - Crafty
- - Stremio
+ - MikoPBX
